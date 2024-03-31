@@ -1,0 +1,519 @@
+.body {
+  margin: 0;
+  padding: 0;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+}
+
+h1 {
+  font-size: 48px !important;
+}
+
+p {
+  font-size: 20px !important;
+}
+
+.tamaño-banner {
+  font-size: 72px !important ;
+}
+
+.tamaño-medio {
+  font-size: 20px !important;
+}
+
+.tamaño-chico {
+  font-size: 17px !important;
+}
+
+.tamaño-mas-chico {
+  font-size: 15px !important;
+}
+
+@media (max-width: 425px) {
+  h1 {
+    font-size: 32px !important;
+  }
+
+  p {
+    font-size: 17px !important;
+  }
+  .tamaño-banner {
+    font-size: 48px !important ;
+  }
+
+  .tamaño-medio {
+    font-size: 17px !important;
+  }
+
+  .tamaño-chico {
+    font-size: 14px !important;
+  }
+
+  .tamaño-mas-chico {
+    font-size: 12.5px !important;
+  }
+}
+
+.peso-bold {
+  font-weight: 700 !important;
+}
+
+.peso-regular {
+  font-weight: 400 !important;
+}
+
+.color-black {
+  background-color: #0d0d0e;
+}
+
+.color-black-light {
+  background-color: #1d1e1c;
+}
+
+.color-orange {
+  color: #f94c00;
+}
+
+.color-secundary {
+  color: #07a9c1;
+}
+
+.color-error {
+  color: #e7414c;
+}
+
+.sin-sub {
+  text-decoration: none;
+}
+
+@media (max-width: 425px) {
+  .container {
+    padding-right: 7.5%;
+    padding-left: 7.5%;
+  }
+}
+
+/* NavbarReact */
+.navbar-height {
+  height: 100px;
+}
+.navbar-toggler {
+  margin: 0 -0.75rem;
+}
+
+.navbar-toggler-icon {
+  background-image: url(./assets/img/hamburguesa-blanca-2.png) !important;
+}
+.navbar-dark .navbar-toggler {
+  border: 0;
+}
+
+.navbar-celu {
+  margin-left: auto;
+  /* width: 163px; */
+}
+
+/* Banner desktop */
+.banner-text {
+  position: absolute;
+  width: 495px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+/* Genesis y collections*/
+.section-posi {
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+.card-cars {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 0;
+  width: 22%;
+  height: 530px;
+  border-radius: 24px;
+}
+@media (max-width: 992px) {
+  .card-cars {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 0;
+    width: auto;
+    height: 523px;
+    border-radius: 24px;
+    margin-left: 32px !important;
+  }
+}
+@media (max-width: 425px) {
+  .card-cars {
+    height: 472px;
+  }
+}
+
+.image-card {
+  border-top-right-radius: 24px;
+  border-top-left-radius: 24px;
+}
+
+.swiper-button-next {
+  right: -5px !important;
+  color: #f94c00 !important;
+}
+.swiper-button-next:after {
+  font-size: 25px !important;
+  font-weight: 700 !important;
+}
+.swiper-button-prev {
+  left: -5px !important;
+  color: #f94c00 !important;
+}
+.swiper-button-prev:after {
+  font-size: 25px !important;
+  font-weight: 700 !important;
+}
+
+/*Button getWhitelsted */
+.get-Whitelsted {
+  width: 226px;
+  height: 52px;
+  background: #185975;
+  border: 1px solid #185975;
+  border-radius: 50px;
+}
+
+@media (max-width: 992px) {
+  .get-Whitelsted {
+    height: 44px;
+  }
+}
+
+.get-Whitelsted:active {
+  background: #07a9c1;
+  border: 1px solid #07a9c1 !important ;
+  border-radius: 50px;
+}
+
+.get-Whitelsted:target {
+  background: #07a9c1;
+  border: 1px solid #07a9c1 !important ;
+  border-radius: 50px;
+  color: #0d0d0e !important;
+}
+
+.get-Whitelsted:focus {
+  background: #07a9c1;
+  border: 1px solid #07a9c1 !important ;
+  border-radius: 50px;
+}
+
+.get-Whitelsted:hover {
+  background: #07a9c1;
+  border: 1px solid #07a9c1 !important ;
+  border-radius: 50px;
+}
+
+/*Form contact*/
+.shorts-inputs {
+  color: white;
+  padding: 16px;
+  gap: 16px;
+  width: 252px;
+  height: 48px;
+  background: #070606c0 !important;
+  border-radius: 8px;
+}
+
+.shorts-inputs:hover {
+  color: white;
+  padding: 16px;
+  gap: 16px;
+  width: 252px;
+  height: 48px;
+  background: #070606c0 !important;
+  border-radius: 8px;
+}
+
+.length-inputs {
+  color: white;
+  padding: 16px;
+  gap: 16px;
+  width: 558px;
+  height: 48px;
+  background: #070606c0 !important;
+  border-radius: 8px;
+}
+
+.length-inputs:hover {
+  color: white;
+  padding: 16px;
+  gap: 16px;
+  width: 568px;
+  height: 48px;
+  background: #070606c0 !important;
+  border-radius: 8px;
+}
+
+.form-responsive {
+  width: 900px;
+}
+
+@media (max-width: 982px) {
+  .form-responsive {
+    width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .form-responsive {
+    width: 400px;
+  }
+  .shorts-inputs {
+    gap: 16px;
+    width: 280px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+  }
+
+  .shorts-inputs:hover {
+    color: white;
+    gap: 16px;
+    width: 280px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+  }
+
+  .length-inputs {
+    color: white;
+    gap: 16px;
+    width: 280px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+  }
+
+  .length-inputs:hover {
+    color: white;
+    gap: 16px;
+    width: 280px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 425px) {
+  .form-responsive {
+    width: 400px;
+  }
+  .button-contact {
+    width: 100px;
+    height: 50px;
+    background: #f94c00;
+    border: 1px solid #f94c00;
+    border-radius: 50px;
+  }
+
+  .btn-primary {
+    color: #e7f1ff;
+  }
+}
+
+@media (max-width: 375px) {
+  .form-responsive {
+    width: 300px;
+  }
+  .button-contact {
+    width: 100px;
+    height: 50px;
+    background: #f94c00;
+    border: 1px solid #f94c00;
+    border-radius: 50px;
+  }
+
+  .btn-primary {
+    color: #e7f1ff;
+  }
+}
+
+@media (max-width: 325px) {
+  .form-responsive {
+    width: 315px;
+  }
+  .button-contact {
+    width: 100px;
+    height: 50px;
+    background: #f94c00;
+    border: 1px solid #f94c00;
+    border-radius: 50px;
+  }
+
+  .btn-primary {
+    color: #e7f1ff;
+  }
+
+  .shorts-inputs {
+    gap: 16px;
+    width: 240px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+  }
+
+  .shorts-inputs:hover {
+    color: white;
+    gap: 16px;
+    width: 240px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+  }
+
+  .length-inputs {
+    color: white;
+    gap: 16px;
+    width: 240px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+  }
+
+  .length-inputs:hover {
+    color: white;
+    gap: 16px;
+    width: 240px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+  }
+}
+
+/*Accordion*/
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: #0d0d0e;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.accordion-item {
+  background-color: #141414;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.accordion-button::after {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  content: "";
+  background-image: url(./assets/icons/Mas.svg);
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(./assets/icons/menos.svg);
+  transform: rotate(-180deg);
+  margin-top: -15px;
+}
+
+.accordion-button {
+  color: rgb(245, 245, 245);
+  background-color: #141414;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  outline: 0;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #141414;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+@media (max-width: 425px) {
+  .accordion-button {
+    width: 388px;
+    color: rgb(245, 245, 245);
+    background-color: #141414;
+  }
+  .accordion-button:focus {
+    z-index: 3;
+    outline: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .accordion-button {
+    width: 350px;
+    color: rgb(245, 245, 245);
+    background-color: #141414;
+  }
+  .accordion-button:focus {
+    z-index: 3;
+    outline: 0;
+  }
+}
+
+/* navbar css */
+.logo-nav {
+  width: 100px !important;
+}
+
+/* mapa */
+.mapa {
+  width: 700px;
+}
+@media (max-width: 1100px) {
+  .mapa {
+    width: 480px;
+  }
+}
+
+@media (max-width: 900px) {
+  .mapa {
+    width: 700px;
+  }
+}
+
+@media (max-width: 700px) {
+  .mapa {
+    width: 700px;
+  }
+}
+
+@media (max-width: 500px) {
+  .mapa {
+    width: 400px;
+  }
+}
+@media (max-width: 380px) {
+  .mapa {
+    width: 320px;
+  }
+}
+
+@media (max-width: 330px) {
+  .mapa {
+    width: 300px;
+  }
+}
+
+.iconos-nav {
+  width: 30px;
+  margin-top: 5px;
+}
