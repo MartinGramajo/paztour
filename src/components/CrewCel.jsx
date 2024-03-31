@@ -2,7 +2,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Figure } from "react-bootstrap";
-import image1 from "../assets/img/a1.jpg";
+import image1 from "../assets/img/director.jpg";
 
 export default function CrewCel() {
   return (
