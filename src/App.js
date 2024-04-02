@@ -18,10 +18,22 @@ import Footer from "./components/Footer";
 import FooterCel from "./components/FooterCel";
 import Metaverse from "./components/Metaverse";
 import MetaverseCel from "./components/MetaverseCel";
+import Wsp from "./components/Wsp";
+
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
     return (
         <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
+            <Wsp />
+
             <div style={{ backgroundColor: "#1D1E1C" }}>
                 <div className="d-none d-lg-block">
                     <NavbarReact />
@@ -40,56 +52,54 @@ function App() {
             </div>
 
             <div className="color-black-light" id="paztour">
-                <div className=" d-none d-lg-block">
+                <div className=" d-none d-lg-block" data-aos="fade-up">
                     <Genesis />
                 </div>
-                <div className="d-lg-none d-block">
+                <div className="d-lg-none d-block" data-aos="fade-up">
                     <GenesisCel />
                 </div>
             </div>
-
-
             <div className="text-dark" id="oficinas">
-                <div className="d-none d-lg-block">
+                <div className="d-none d-lg-block" data-aos="fade-up">
                     <BannerAbout />
                 </div>
-                <div className="d-lg-none d-block">
+                <div className="d-lg-none d-block" data-aos="fade-up">
                     <BannerAboutCel />{" "}
                 </div>
             </div>
 
-            <div style={{ backgroundColor: "#181818" }}>
+            <div style={{ backgroundColor: "#181818" }} data-aos="fade-up">
                 <VideoCollections />
             </div>
             <div >
-                <div className="d-none d-lg-block">
+                <div className="d-none d-lg-block" data-aos="fade-up">
                     <Metaverse />
                 </div>
-                <div className="d-lg-none d-block">
+                <div className="d-lg-none d-block" data-aos="fade-up">
                     <MetaverseCel />
                 </div>
             </div>
             <div style={{ backgroundColor: "#181818" }}>
-                <div className="d-none d-lg-block">
+                <div className="d-none d-lg-block" data-aos="fade-up">
                     <Crew />
                 </div>
-                <div className="d-lg-none d-block">
+                <div className="d-lg-none d-block" data-aos="fade-up">
                     <CrewCel />
                 </div>
             </div>
             <div >
-                <div className="d-none d-lg-block">
+                <div className="d-none d-lg-block" data-aos="fade-up">
                     <Asked />
                 </div>
-                <div className="d-lg-none d-block">
+                <div className="d-lg-none d-block" data-aos="fade-up">
                     <AskedCel />
                 </div>
             </div>
-            <div style={{ backgroundColor: "#181818" }} id="contacto">
-                <div className="d-none d-lg-block">
+            <div style={{ backgroundColor: "#181818" }} id="contacto" >
+                <div className="d-none d-lg-block" data-aos="fade-up">
                     <FormContact />
                 </div>
-                <div className="d-lg-none d-block">
+                <div className="d-lg-none d-block" data-aos="fade-up">
                     <FormContactCel />
                 </div>
             </div>
