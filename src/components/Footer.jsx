@@ -6,7 +6,7 @@ export default function Footer() {
       <div>
         <a
           className="sin-sub text-white"
-          href="https://neptuneads.com/"
+          href="https://www.dkzstudio.com/"
           target="_blank"
           rel="noreferrer"
         >

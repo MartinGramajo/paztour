@@ -5,7 +5,7 @@ export default function FooterCel() {
       <div>
         <a
           className="text-white sin-sub "
-          href="https://neptuneads.com/"
+          href="https://www.dkzstudio.com/"
           target="_blank"
           rel="noreferrer"
         >

@@ -15,10 +15,10 @@ export default function FormContactCel() {
       e.stopPropagation();
       emailjs
         .sendForm(
-          "service_rg18144",
-          "template_httqo6d",
+          "service_k841mmu",
+          "template_fwr3p26",
           e.target,
-          "user_Stg5159fb3qxm0lYluqAN"
+          "JuhBLV4ZBCNDRG-Xw"
         )
         .then(
           (result) => {
@@ -48,9 +48,9 @@ export default function FormContactCel() {
   return (
     <div className="my-5">
       <div className="text-white text-center mt-5 mb-1">
-        <h1 className="pt-4" style={{ fontSize: "14px", fontWeight: "bold" }}>
+        <h6 className="pt-4" style={{ fontSize: "24px", fontWeight: "bold" }}>
           TE GUSTARÍA UNA ATENCIÓN PERSONALIZADA
-        </h1>
+        </h6>
       </div>
       <div>
         <Form

@@ -6,8 +6,6 @@ import BannerMain from "./components/BannerMain";
 import BannerMainCel from "./components/BannerMainCel";
 import Crew from "./components/Crew";
 import CrewCel from "./components/CrewCel";
-import FormContact from "./components/FormContact";
-import FormContactCel from "./components/FormContactCel";
 import Genesis from "./components/Genesis";
 import GenesisCel from "./components/GenesisCel";
 import NavbarReact from "./components/NavbarReact";
