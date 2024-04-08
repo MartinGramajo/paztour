@@ -520,3 +520,38 @@ p {
 .same-height {
   height: 100%;
 }
+
+.carousel-img {
+  height: 500px; /* Establece la altura que prefieras */
+  object-fit: cover; /* Esto asegura que la imagen cubra el área sin perder sus proporciones */
+  width: 100%; /* Esto hace que la imagen se extienda a lo ancho del contenedor */
+}
+
+.bannerImage {
+  transition:
+    transform 0.5s ease,
+    opacity 0.5s ease; /* Smooth transition */
+}
+
+.bannerImage:hover {
+  transform: scale(1.04); /* Slight zoom effect */
+  opacity: 1; /* Changes opacity on hover */
+}
+
+.nav-link-custom {
+  background-color: #185975;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block; /* Importante para aplicar padding y border-radius */
+  transition:
+    background-color 0.2s,
+    color 0.2s; /* Para un efecto de transición suave */
+}
+
+.nav-link-custom:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid #07a9c1;
+}

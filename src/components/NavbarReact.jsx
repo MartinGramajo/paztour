@@ -6,25 +6,28 @@ import face from "../assets/img/face.png";
 import insta from "../assets/img/insta.png";
 
 export default function NavbarReact() {
+  // Estilo para replicar el botón en los Nav.Link
+  const navLinkStyle = {
+    backgroundColor: "#185975", // Asumiendo un color dorado como ejemplo
+    color: "white",
+    padding: "5px ",
+    borderRadius: "5px",
+    fontWeight: "bold",
+  };
+
   return (
     <div className="container">
       <div className="d-flex justify-content-between align-items-center navbar-height">
         <div>
           <Nav>
-            <Nav.Link className="" href="#paztour">
-              <p className="mb-0 text-dark" style={{ fontWeight: "bold" }}>
-                PAZTOUR
-              </p>
+            <Nav.Link href="#paztour">
+              <p className="mb-0 nav-link-custom">PAZTOUR</p>
             </Nav.Link>
-            <Nav.Link className="" href="#oficinas">
-              <p className="mb-0 text-dark" style={{ fontWeight: "bold" }}>
-                OFICINAS{" "}
-              </p>
+            <Nav.Link href="#oficinas">
+              <p className="mb-0 nav-link-custom">OFICINAS</p>
             </Nav.Link>
-            <Nav.Link className="" href="#contacto">
-              <p className="mb-0 text-dark" style={{ fontWeight: "bold" }}>
-                CONTACTO
-              </p>
+            <Nav.Link href="#contacto">
+              <p className="mb-0 nav-link-custom">CONTACTO</p>
             </Nav.Link>
           </Nav>
         </div>
