@@ -11,11 +11,12 @@ export default function GenesisCel() {
               CONOCE NUESTROS DESTINOS{" "}
             </h1>
             <p className="text-white">
-              Lorem ipsum dolor sit amet. Est odio dolore est sunt laboriosam
-              aut quae aliquid ut adipisci explicabo et assumenda laboriosam ea
-              natus optio. Nam adipisci dolor et nisi vitae aut impedit
-              deserunt. Et quaerat quod et magnam veniam est sequi assumenda non
-              inventore dolorum.
+              ¡Descubre el mundo con Paztour Agency! Sumérgete en aventuras
+              inolvidables mientras exploras destinos exóticos, culturas
+              fascinantes y paisajes impresionantes. Desde las playas
+              paradisíacas del Caribe hasta las majestuosas montañas de los
+              Andes, nuestros expertos en viajes te guiarán en la experiencia de
+              tu vida. ¡Únete a nosotros y haz realidad tus sueños de viaje!
             </p>
           </div>
         </div>

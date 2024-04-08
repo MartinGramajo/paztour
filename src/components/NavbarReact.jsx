@@ -12,13 +12,19 @@ export default function NavbarReact() {
         <div>
           <Nav>
             <Nav.Link className="" href="#paztour">
-              <p className="mb-0 text-white">PAZTOUR</p>
+              <p className="mb-0 text-dark" style={{ fontWeight: "bold" }}>
+                PAZTOUR
+              </p>
             </Nav.Link>
             <Nav.Link className="" href="#oficinas">
-              <p className="mb-0 text-white">OFICINAS </p>
+              <p className="mb-0 text-dark" style={{ fontWeight: "bold" }}>
+                OFICINAS{" "}
+              </p>
             </Nav.Link>
             <Nav.Link className="" href="#contacto">
-              <p className="mb-0 text-white">CONTACTO</p>
+              <p className="mb-0 text-dark" style={{ fontWeight: "bold" }}>
+                CONTACTO
+              </p>
             </Nav.Link>
           </Nav>
         </div>

@@ -55,15 +55,14 @@ export default function FormContact() {
         </h6>
       </div>
       <Form
-        className=" mx-auto card p-5  form-responsive"
+        className=" p-5  form-responsive"
         style={{ backgroundColor: "#181818" }}
-        s
         ref={form}
         noValidate
         validated={validated}
         onSubmit={sendEmail}
       >
-        <div className="d-flex justify-content-center">
+        <div className="">
           <Row className="mb-3">
             <Form.Group as={Col} md="12" controlId="validationCustom01">
               <Form.Label className="text-white">
@@ -75,7 +74,6 @@ export default function FormContact() {
                 type="text"
                 name="name"
               />
-
               <Form.Control.Feedback type="invalid">
                 Por favor verifique sus datos.
               </Form.Control.Feedback>
@@ -83,7 +81,7 @@ export default function FormContact() {
           </Row>
         </div>
 
-        <div className="mx-auto">
+        <div>
           <Row className="mb-3">
             <Form.Group as={Col} md="12" controlId="validationCustom03">
               <Form.Label className="text-white">
@@ -103,7 +101,7 @@ export default function FormContact() {
             </Form.Group>
           </Row>
         </div>
-        <div className="mx-auto">
+        <div>
           <Row className="mb-3">
             <Form.Group as={Col} md="12" controlId="validationCustom03">
               <Form.Label className="text-white">
@@ -123,7 +121,7 @@ export default function FormContact() {
           </Row>
         </div>
 
-        <div className="d-flex justify-content-center">
+        <div>
           <Button
             className="get-Whitelsted border-0 mt-5 "
             type="submit"

@@ -19,15 +19,14 @@ export default function BannerAbout() {
               CONOCE NUESTRA AGENCIA
             </h6>
             <p style={{ fontSize: "10px" }}>
-              Lorem ipsum dolor sit amet. Eum illo ducimus est amet voluptatem a
-              incidunt officia sit inventore galisum sed fugit omnis non impedit
-              veritatis. Aut temporibus veritatis ut iste quia et voluptatem
-              molestias nam ullam explicabo est expedita eligendi. Et eius sint
-              aut dolorem galisum et quidem galisum qui optio vitae aut
-              architecto voluptatibus est error animi et debitis voluptatibus.
-              Est aspernatur facilis ut molestiae Quis ab aspernatur error qui
-              repellendus accusantium ea perferendis necessitatibus qui dolorem
-              suscipit et dolor neque.
+              En el corazón de Abanilla, Murcia, Paztour Agency se erige como tu
+              aliado confiable para explorar el mundo. Con un equipo apasionado
+              y conocedor, estamos comprometidos a brindarte experiencias de
+              viaje inolvidables. Desde la planificación meticulosa hasta la
+              atención personalizada, nos esforzamos por hacer de cada viaje una
+              aventura única y emocionante. Visítanos en nuestra sede y déjanos
+              ser tu puerta de entrada a un mundo de descubrimientos y
+              maravillas.
             </p>
             <ButtonGetWhitelsted />
           </div>

@@ -15,13 +15,19 @@ export default function NavbarReactCel() {
       <Navbar.Collapse className="" id="basic-navbar-nav">
         <Nav className="">
           <Nav.Link className="text-end" href="#paztour">
-            <p className="mb-0 text-white">PAZTOUR</p>
+            <p className="mb-0 text-dark" style={{ fontWeight: "bold" }}>
+              PAZTOUR
+            </p>
           </Nav.Link>
           <Nav.Link className="text-end" href="#oficinas">
-            <p className="mb-0 text-white">OFICINAS </p>
+            <p className="mb-0 text-dark" style={{ fontWeight: "bold" }}>
+              OFICINAS{" "}
+            </p>
           </Nav.Link>
           <Nav.Link className="text-end" href="#contacto">
-            <p className="mb-0 text-white">CONTACTO</p>
+            <p className="mb-0 text-dark" style={{ fontWeight: "bold" }}>
+              CONTACTO
+            </p>
           </Nav.Link>
           <div className="my-3 text-end">
             <div className="mx-2 d-flex justify-content-end">

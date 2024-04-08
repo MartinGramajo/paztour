@@ -102,7 +102,7 @@ p {
 }
 
 .navbar-toggler-icon {
-  background-image: url(./assets/img/hamburguesa-blanca-2.png) !important;
+  background-image: url(./assets/img/menu.png) !important;
 }
 .navbar-dark .navbar-toggler {
   border: 0;
@@ -134,22 +134,23 @@ p {
   background-color: rgba(255, 255, 255, 0.05);
   border: 0;
   width: 22%;
-  height: 530px;
+  height: 430px;
   border-radius: 24px;
 }
 @media (max-width: 992px) {
   .card-cars {
     background-color: rgba(255, 255, 255, 0.05);
     border: 0;
-    width: auto;
-    height: 523px;
+    width: 450px;
+    height: 350px;
     border-radius: 24px;
     margin-left: 32px !important;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 455px) {
   .card-cars {
-    height: 472px;
+    width: 450px;
+    height: 350px;
   }
 }
 
@@ -516,4 +517,12 @@ p {
 .iconos-nav {
   width: 30px;
   margin-top: 5px;
+}
+
+.bg-blanco-nav {
+  background-color: #fafafa !important;
+}
+
+.same-height {
+  height: 100%;
 }

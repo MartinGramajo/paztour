@@ -1,9 +1,9 @@
 import React from "react";
 import { Image } from "react-bootstrap";
-import metaverse from "../assets/img/a1.jpg";
-import cieloLimite from "../assets/img/cielolimite.png";
+import cieloLimite from "../assets/img/movil.png";
+import FormContactCel from "./FormContactCel";
 
-export default function MetaverseCel() {
+export default function FormularioCel() {
   return (
     <div>
       <div className="container ">
@@ -17,11 +17,7 @@ export default function MetaverseCel() {
               />
             </div>
             <div className="col-lg-6 mx-3">
-              <Image
-                className="img-fluid same-height"
-                src={metaverse}
-                alt="banner-about"
-              />
+              <FormContactCel />
             </div>
           </div>
         </div>

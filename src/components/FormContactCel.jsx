@@ -54,14 +54,14 @@ export default function FormContactCel() {
       </div>
       <div>
         <Form
-          className=" mx-auto  p-5 form-responsive"
+          className="form-responsive px-4 mt-5"
           style={{ backgroundColor: "#181818" }}
           ref={form}
           noValidate
           validated={validated}
           onSubmit={sendEmail}
         >
-          <div className="d-flex justify-content-center">
+          <div>
             <Row className="mb-3">
               <Form.Group as={Col} controlId="validationCustom01">
                 <Form.Label className="text-white">
@@ -80,7 +80,7 @@ export default function FormContactCel() {
               </Form.Group>
             </Row>
           </div>
-          <div className="d-flex justify-content-center">
+          <div>
             <Row className="mb-3">
               <Form.Group as={Col} controlId="validationCustom01">
                 <Form.Label className="text-white">
@@ -100,7 +100,7 @@ export default function FormContactCel() {
               </Form.Group>
             </Row>
           </div>
-          <div className="d-flex justify-content-center flex-wrap">
+          <div>
             <Row className="mb-3">
               <Form.Group as={Col} controlId="validationCustom03">
                 <Form.Label className="text-white">
@@ -120,7 +120,7 @@ export default function FormContactCel() {
             </Row>
           </div>
 
-          <div className="d-flex justify-content-center">
+          <div className="px-4">
             <Button className="get-Whitelsted border-0 mt-2 mb-3" type="submit">
               ENVIAR
             </Button>

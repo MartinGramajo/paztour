@@ -23,6 +23,8 @@ import Wsp from "./components/Wsp";
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import FormularioEscritorio from "./components/FormularioEscritorio";
+import FormularioCel from "./components/FormularioCel";
 
 function App() {
 
@@ -34,7 +36,7 @@ function App() {
         <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
             <Wsp />
 
-            <div style={{ backgroundColor: "#1D1E1C" }}>
+            <div style={{ backgroundColor: "#FAFAFA" }}>
                 <div className="d-none d-lg-block">
                     <NavbarReact />
                 </div>
@@ -97,10 +99,10 @@ function App() {
             </div>
             <div style={{ backgroundColor: "#181818" }} id="contacto" >
                 <div className="d-none d-lg-block" data-aos="fade-up">
-                    <FormContact />
+                    <FormularioEscritorio />
                 </div>
                 <div className="d-lg-none d-block" data-aos="fade-up">
-                    <FormContactCel />
+                    <FormularioCel />
                 </div>
             </div>
             <div style={{ backgroundColor: "#181818" }}>
