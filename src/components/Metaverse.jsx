@@ -11,15 +11,12 @@ export default function Metaverse() {
             <Image
               src={cieloLimite}
               alt="banner-about"
-              className="img-fluid same-height"
+              className="h-100"
+              fluid
             />
           </div>
           <div className="col-lg-6 mx-3">
-            <Image
-              src={metaverse}
-              alt="banner-about"
-              className="img-fluid same-height"
-            />
+            <Image src={metaverse} alt="banner-about" className="h-100" fluid />
           </div>
         </div>
       </div>

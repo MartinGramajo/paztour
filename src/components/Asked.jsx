@@ -11,7 +11,8 @@ export default function Asked() {
             <Image
               src={cieloLimite}
               alt="banner-about"
-              className="img-fluid same-height"
+              className="same-height"
+              fluid
             />
           </div>
           <div className="col-lg-6 mx-3">

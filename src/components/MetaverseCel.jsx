@@ -11,16 +11,18 @@ export default function MetaverseCel() {
           <div className="my-5 ">
             <div className="col-lg-6 mx-3">
               <Image
-                className="img-fluid same-height"
+                className="h-100"
                 src={cieloLimite}
                 alt="banner-about"
+                fluid
               />
             </div>
             <div className="col-lg-6 mx-3">
               <Image
-                className="img-fluid same-height"
+                className="h-100"
                 src={metaverse}
                 alt="banner-about"
+                fluid
               />
             </div>
           </div>
