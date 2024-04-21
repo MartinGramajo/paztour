@@ -9,7 +9,7 @@ export default function MetaverseCel() {
       <div className="container ">
         <div className="row">
           <div className="my-5 ">
-            <div className="col-lg-6 mx-3">
+            <div className="col-12">
               <Image
                 className="h-100"
                 src={cieloLimite}
@@ -17,7 +17,7 @@ export default function MetaverseCel() {
                 fluid
               />
             </div>
-            <div className="col-lg-6 mx-3">
+            <div className="col-12">
               <Image
                 className="h-100"
                 src={metaverse}

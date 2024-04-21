@@ -10,11 +10,7 @@ export default function FormularioCel() {
         <div className="row">
           <div className="my-5 ">
             <div className="col-lg-6 mx-3">
-              <Image
-                className="img-fluid same-height"
-                src={cieloLimite}
-                alt="banner-about"
-              />
+              <Image className="" src={cieloLimite} alt="banner-about" fluid />
             </div>
             <div className="col-lg-6 mx-3">
               <FormContactCel />

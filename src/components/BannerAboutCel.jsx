@@ -30,12 +30,7 @@ export default function BannerAboutCel() {
               onClick={handleShow}
               style={{ cursor: "pointer" }}
             >
-              <Image
-                className="bannerImage w-100"
-                src={banner}
-                alt="banner-about"
-                fluid
-              />
+              <Image className="w-100" src={banner} alt="banner-about" fluid />
             </div>
             <div className="text-dark my-2">
               <h1
