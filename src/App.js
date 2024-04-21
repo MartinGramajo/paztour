@@ -96,10 +96,10 @@ function App() {
                 </div>
             </div>
             <div style={{ backgroundColor: "#181818" }} id="contacto" >
-                <div className="d-none d-lg-block" data-aos="fade-up">
+                <div className="d-none d-xl-block" data-aos="fade-up">
                     <FormularioEscritorio />
                 </div>
-                <div className="d-lg-none d-block" data-aos="fade-up">
+                <div className="d-xl-none d-block" data-aos="fade-up">
                     <FormularioCel />
                 </div>
             </div>
