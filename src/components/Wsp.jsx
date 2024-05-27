@@ -7,7 +7,7 @@ export default function Wsp() {
       <div className="navbar-bordes">
         <a
           className=""
-          href="https://wa.link/5jou58"
+          href="https://wa.link/cgnt7e"
           target="_blank"
           rel="noreferrer"
         >
